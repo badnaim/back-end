@@ -1,0 +1,18 @@
+GET http://localhost:6000/products HTTP/1.1
+
+###
+
+POST http://localhost:6000/products HTTP/1.1
+content-type: application/json
+
+{
+    "id": 0,
+    "name": "iphone 16"
+}
+
+###
+
+DELETE http://localhost:6000/products/delete HTTP/1.1
+
+# POST http://localhost:6000/employee/?emp_no=10001 HTTP1.1
+
